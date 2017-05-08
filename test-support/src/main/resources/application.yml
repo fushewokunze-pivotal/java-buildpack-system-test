@@ -45,6 +45,7 @@ services:
     service: aws-rds-postgres
     plan:    standard
   rabbitmq:
+    enabled: false
     name:    test-rabbitmq
     service: p-rabbitmq
     plan:    standard

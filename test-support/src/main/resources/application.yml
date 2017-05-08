@@ -31,10 +31,10 @@ applications:
     prefix:   web-servlet-2-application-
 
 services:
-  #mongodb:
-  #  name:    test-mongodb
-  #  service: mlab
-  #  plan:    sandbox
+  mongodb:
+    name:    test-mongodb
+    service: mlab
+    plan:    sandbox
   mysql:
     name:    test-mysql
     service: p-mysql
@@ -47,7 +47,7 @@ services:
     name:    test-rabbitmq
     service: p-rabbitmq
     plan:    standard
-  #redis:
-  #  name:    test-redis
-  #  service: rediscloud
-  #  plan:    30mb
+  redis:
+    name:    test-redis
+    service: rediscloud
+    plan:    30mb

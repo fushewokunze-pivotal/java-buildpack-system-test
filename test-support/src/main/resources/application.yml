@@ -41,6 +41,7 @@ services:
     service: p-mysql
     plan:    100mb
   postgresql:
+    enabled: false
     name:    test-postgresql
     service: aws-rds-postgres
     plan:    standard

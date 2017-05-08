@@ -32,6 +32,7 @@ applications:
 
 services:
   mongodb:
+    enabled: false
     name:    test-mongodb
     service: mlab
     plan:    sandbox
@@ -48,6 +49,7 @@ services:
     service: p-rabbitmq
     plan:    standard
   redis:
+    enabled: false
     name:    test-redis
     service: rediscloud
     plan:    30mb

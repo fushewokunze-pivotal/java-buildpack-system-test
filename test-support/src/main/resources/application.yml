@@ -38,11 +38,11 @@ services:
   mysql:
     name:    test-mysql
     service: p-mysql
-    plan:    basic
+    plan:    standard
   postgresql:
     name:    test-postgresql
     service: aws-rds-postgres
-    plan:    nasic
+    plan:    standard
   rabbitmq:
     name:    test-rabbitmq
     service: p-rabbitmq

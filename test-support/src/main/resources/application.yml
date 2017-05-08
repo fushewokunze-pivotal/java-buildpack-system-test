@@ -38,7 +38,7 @@ services:
   mysql:
     name:    test-mysql
     service: p-mysql
-    plan:    standard
+    plan:    100mb
   postgresql:
     name:    test-postgresql
     service: aws-rds-postgres

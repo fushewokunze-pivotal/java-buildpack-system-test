@@ -12,7 +12,6 @@ test:
     java-main:  false
     spring-boot-cli:  false
     spring-boot-cli-jar:  false
-    web:  false
     spring-common:  false
     web:  false
     web-servlet-2:  false
@@ -40,5 +39,4 @@ test:
     spring-boot-cli-jar:  false
     web:  false
     spring-common:  false
-    web:  false
     web-servlet-2:  false

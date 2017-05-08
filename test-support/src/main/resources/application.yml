@@ -31,23 +31,23 @@ applications:
     prefix:   web-servlet-2-application-
 
 services:
-  mongodb:
-    name:    test-mongodb
-    service: mlab
-    plan:    sandbox
+  #mongodb:
+  #  name:    test-mongodb
+  #  service: mlab
+  #  plan:    sandbox
   mysql:
     name:    test-mysql
-    service: cleardb
-    plan:    amp
+    service: p-mysql
+    plan:    basic
   postgresql:
     name:    test-postgresql
-    service: elephantsql
-    plan:    hippo
+    service: aws-rds-postgres
+    plan:    nasic
   rabbitmq:
     name:    test-rabbitmq
-    service: cloudamqp
-    plan:    lemur
-  redis:
-    name:    test-redis
-    service: rediscloud
-    plan:    30mb
+    service: p-rabbitmq
+    plan:    standard
+  #redis:
+  #  name:    test-redis
+  #  service: rediscloud
+  #  plan:    30mb
